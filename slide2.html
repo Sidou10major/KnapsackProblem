@@ -1,0 +1,203 @@
+<!doctype html>
+<head>
+
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Poids du sac</title>
+  
+  <meta name="title" content="">
+  <meta name="description" content="">
+  
+  <meta name="google-site-verification" content=""> <!-- http://google.com/webmasters -->
+
+  <meta name="author" content="Your Name Here">
+  <meta name="Copyright" content="Copyright Your Name Here 2013. All Rights Reserved.">
+
+  <link rel="shortcut icon" href="favicon.html">
+
+  <link rel="stylesheet" href="css/mosaic.css">
+  <!--Main Stylesheet-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/admin-all-demo.css">
+
+
+  <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy|Bitter:700|Open+Sans:400,600,600italic' rel='stylesheet' type='text/css'>
+  <!--Load Modernizr, all other scripts are on the footer-->
+
+<style >
+     
+#table-wrapper {
+  position:relative;
+  
+  }
+
+#table-scroll {
+  height:340px;
+  overflow:auto;  
+  margin-top:10px;
+  }
+
+#table-wrapper table {
+  width:100%;
+
+  }
+
+#table-wrapper table * {
+  background:transparent ;
+  color:white;
+  border: solid #c5db3b 2px;
+  }
+
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-0px;
+  z-index:2;
+  height:50px;
+  width:50%;
+  border:1px solid red;
+  }
+
+#dataTable th {
+    text-align:center; 
+    vertical-align:middle;
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+#dataTable td {
+    
+    vertical-align:middle;
+
+   
+}
+
+#dataTable .td1{
+  width:600px;
+}
+
+#dataTable .td1 img{
+  padding: 0;
+  width:100px;
+ 
+}
+
+#dataTable td.td2{
+  width: 360px;
+}
+
+#dataTable td.td2 input.td22{
+  border-color: rgba(0,0,0,0); 
+  font-size: 20px; 
+  height: 50px;
+  width:200px;
+  text-align:center; 
+  
+}
+
+#dataTable td.td2 select.td22
+{
+border-color: rgba(0,0,0,0); 
+height: 50px;
+width: 200px;
+font-size: 20px;
+padding: 5px;
+ 
+
+}
+
+#dataTable td.td2 select.td22 option 
+{
+  color: black;
+   text-align:center; 
+}
+
+
+</style>
+
+  <script src="js/modernizr-1.7.min.js"></script>
+
+
+
+
+</head>
+
+<body id="homepage">
+
+<!--Header Section-->
+<header>
+  <div class="container_16 clearfix">
+
+      <h1 class="grid_7" id="logo"><a href="#"><img src="css/images/logo.png" alt="" width="310" height="62"/></a></h1>
+
+      <nav id="main_nav" class="bitter grid_9">
+        <ul>
+          <li><a href="index.html">Entrée</a></li>
+          <li class="active"><a href="slide2.html">Sélècte</a></li>
+           <li><a href="slide3.html">Choix Ultime</a></li>
+            <li><a href="slide4.html">évasion</a></li>
+        </ul>
+      </nav>
+
+  </div><!--//container-->
+</header>
+<!--//Header Section-->
+
+
+<div class="slider">
+  <div class="slide slide-1">
+    <img src="css/images/placeholders/slider_3.jpg" alt=""/>
+
+
+
+
+        <div class="cta_text bitter" style="margin-top: -450px;" >
+      <p style="margin-left: -200px; ">
+        <span>Il repère quelques objets de valeurs mais son sac ne peut tout contenir </span> <br>
+
+      </p>
+  
+     
+              
+      <div class="panel-body" style="margin-left: 250px; " >
+       
+             <input type="number" min="0" id ="poidsTotal"class="form-control td22" placeholder="Saisir le poids maximal du SAC" >
+                <button type="button" class="btn btn-success" style="background-color:#c5db3b;" onclick="recup_p()">Valider
+                </button>
+                
+                   
+      </div>
+    
+    </div>
+  </div>
+ 
+</div>
+
+
+
+
+<script src="js/sacADos.js"> </script>
+
+
+
+<!-- Our custom functions -->
+
+<script src="js/admin-all-demo.js" ></script>
+
+
+
+
+
+<script src="../../../../ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='js/jquery-1.8.2.min.js'>\x3C/script>")</script>
+
+
+<script src="js/jquery.watermark.min.js"></script>
+<script src="js/mosaic.1.0.1.min.js"></script>
+<!-- Our custom functions -->
+<script src="js/functions.js"></script>
+</body>
+</html>
